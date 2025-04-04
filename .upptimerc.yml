@@ -9,21 +9,29 @@ sites:
     url: https://arbiter.permiso.io
   - name: GraphQL
     url: https://arbiter.permiso.io/api/dev/graphql
+  - name: Arbiter Staging
+    url: https://staging-arbiter.permiso.io
+  - name: GraphQL Staging
+    url: https://staging-arbiter.permiso.io/api/dev/graphql
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   # cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
+  baseUrl: /permiso-status
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Permiso Status
   introTitle: "**Permiso** is Unified Identity Security for all of your environments"
   introMessage: Prevent and detect credential compromise, account takeover and insider threat for all identities, across all environments. We turn Cloud Zeros into Cloud Heros.
   navbar:
     - title: Status
-      href: /
-    - title: GitHub
+      href: /permiso-status
+    - title: Status Github Repo
       href: https://github.com/$OWNER/$REPO
+    - title: Permiso Homepage
+      href: https://permiso.io/
+    - title: Arbiter
+      href: https://arbiter.permiso.io
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
